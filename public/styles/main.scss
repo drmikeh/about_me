@@ -1,10 +1,15 @@
-@import "bourbon/bourbon";
-@import "neat/neat";
-@import "base/base";
+@import "bourbon/bourbon";    // provides mixins
+@import "neat/neat";          // provides a grid system
+@import "base/base";          // bitters, a SASS scaffolding starter
+
+@import "geometric";
+@import "rounded";
+
+@import "navigation";
+@import "tabs";
+@import "footer";
 
 body {
-  margin: 10px;
-  padding: 10px;
-  font: 1em "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  line-height: 1.618em;
+  // font: 1em "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  // line-height: 1.618em;
 }

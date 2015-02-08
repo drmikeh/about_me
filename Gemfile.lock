@@ -8,6 +8,16 @@ GEM
     bourbon (4.1.1)
       sass (~> 3.3)
       thor
+    coffee (0.0.5)
+      httparty
+      json_pure
+      thor
+    httparty (0.13.3)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.2)
+    json_pure (1.8.2)
+    multi_xml (0.5.5)
     neat (1.7.1)
       bourbon (>= 4.0)
       sass (>= 3.3)
@@ -28,6 +38,7 @@ PLATFORMS
 DEPENDENCIES
   bitters
   bourbon
+  coffee
   neat
   sass
   sinatra
