@@ -1,11 +1,25 @@
 <html>
   <head>
     <title>Dr. Michael Hopper</title>
+    <link href='https://fonts.googleapis.com/css?family=Questrial'             rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Sanchez:400italic,400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/styles/main.css">
   </head>
   <body>
-    <div>
-      <%= yield %>
-    </div>
+    <section class="wrapper-for-content-outside-of-footer">
+
+      <%= erb :_navigation %>
+
+      <div>
+        <%= yield %>
+      </div>
+    </section>
+
+    <!-- <%= erb :_footer %>  -->
+
+    <script src="/scripts/jquery.min.js"></script>
+    <script src="/scripts/navigation.js"></script>
+    <script src="/scripts/tabs.js"></script>
   </body>
 </html>
+

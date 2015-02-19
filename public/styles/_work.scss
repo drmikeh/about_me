@@ -1,0 +1,28 @@
+.work {
+  @include outer-container;
+
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+
+  section {
+    // border-top: 1px solid #eee;
+    aside {
+      @include span-columns(3);
+      padding: 0.8em 1em 0.1em;
+      h3 {
+        color: #e85100;
+        font-weight: 200;
+        font-size: 1.2em;
+        margin-bottom: 0;
+      }
+    }
+    article {
+      @include span-columns(9);
+      border-left: 1px solid #eee;
+      padding: 1em;
+      color: #555;
+    }
+  }
+}
