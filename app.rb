@@ -26,3 +26,15 @@ end
 get '/' do
   erb :home
 end
+
+get '/work' do
+  erb :work
+end
+
+get '/contact' do
+  erb :contact
+end
+
+get '/random' do
+  erb :random
+end
